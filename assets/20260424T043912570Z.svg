@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" rx="28" fill="#f7f7f7"/>
+  <text x="60" y="58" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#111827">AI가 일하는 공간 구조</text>
+
+  <rect x="60" y="90" width="1080" height="340" rx="18" fill="#ffd21f" stroke="#f5b400" stroke-width="6"/>
+  <text x="92" y="135" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#111827">컨텍스트 윈도우</text>
+  <text x="92" y="174" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="21" fill="#111827">AI가 지금 보고 있는 작업대. 여기에 들어온 내용만 기준으로 판단한다.</text>
+
+  <rect x="90" y="215" width="160" height="170" rx="10" fill="#d9d9d9" stroke="#a7a7a7" stroke-width="3"/>
+  <text x="122" y="278" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">AGENTS.md</text>
+  <text x="118" y="320" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">프로젝트</text>
+  <text x="118" y="345" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">작업 규칙</text>
+
+  <rect x="290" y="215" width="370" height="170" rx="10" fill="#ffe680" stroke="#eab308" stroke-width="3"/>
+  <text x="325" y="278" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">현재 대화 / 요청</text>
+  <text x="325" y="320" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">사용자 질문, 방금 읽은 파일,</text>
+  <text x="325" y="345" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">실행 결과가 들어오는 자리</text>
+
+  <rect x="700" y="215" width="390" height="170" rx="10" fill="#b8e3ff" stroke="#38a6e8" stroke-width="3"/>
+  <text x="735" y="278" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">MCP / Tools 결과</text>
+  <text x="735" y="320" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">노션, 구글드라이브, GitHub,</text>
+  <text x="735" y="345" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">로컬 파일/터미널 결과가 들어옴</text>
+
+  <text x="60" y="488" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="700" fill="#111827">Skills</text>
+  <text x="160" y="488" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="20" fill="#374151">필요할 때 꺼내 읽는 작업 매뉴얼</text>
+
+  <rect x="60" y="525" width="310" height="135" rx="14" fill="#65f052" stroke="#2fb344" stroke-width="4"/>
+  <text x="98" y="578" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">stock-research</text>
+  <text x="98" y="616" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">종목 조사 순서</text>
+
+  <rect x="410" y="525" width="310" height="135" rx="14" fill="#65f052" stroke="#2fb344" stroke-width="4"/>
+  <text x="448" y="578" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">match-export</text>
+  <text x="448" y="616" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">수출 코드 찾기 순서</text>
+
+  <rect x="760" y="525" width="310" height="135" rx="14" fill="#65f052" stroke="#2fb344" stroke-width="4"/>
+  <text x="798" y="578" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700" fill="#111827">concall-scan</text>
+  <text x="798" y="616" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#111827">자료 스캔 순서</text>
+
+  <path d="M565 525 C565 475, 560 455, 560 430" fill="none" stroke="#2fb344" stroke-width="5" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#2fb344"/>
+    </marker>
+  </defs>
+
+  <text x="60" y="715" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="21" fill="#111827">핵심: AGENTS.md, Skills, MCP 결과는 필요할 때 컨텍스트 윈도우 안으로 들어와 AI의 판단 재료가 된다.</text>
+</svg>
